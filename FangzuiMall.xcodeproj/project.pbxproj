@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0A30DD320EC738A00187777 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30DD220EC738A00187777 /* AppDelegate.m */; };
+		B0A30DD620EC738A00187777 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30DD520EC738A00187777 /* ViewController.m */; };
+		B0A30DD920EC738A00187777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A30DD720EC738A00187777 /* Main.storyboard */; };
+		B0A30DDC20EC738A00187777 /* FangzuiMall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0A30DDA20EC738A00187777 /* FangzuiMall.xcdatamodeld */; };
+		B0A30DDE20EC738A00187777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A30DDD20EC738A00187777 /* Assets.xcassets */; };
+		B0A30DE120EC738A00187777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A30DDF20EC738A00187777 /* LaunchScreen.storyboard */; };
+		B0A30DE420EC738A00187777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30DE320EC738A00187777 /* main.m */; };
+		B0A30DEE20EC738A00187777 /* FangzuiMallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30DED20EC738A00187777 /* FangzuiMallTests.m */; };
+		B0A30DF920EC738B00187777 /* FangzuiMallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30DF820EC738B00187777 /* FangzuiMallUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0A30DEA20EC738A00187777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0A30DC620EC738A00187777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0A30DCD20EC738A00187777;
+			remoteInfo = FangzuiMall;
+		};
+		B0A30DF520EC738B00187777 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0A30DC620EC738A00187777 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0A30DCD20EC738A00187777;
+			remoteInfo = FangzuiMall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0A30DCE20EC738A00187777 /* FangzuiMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FangzuiMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A30DD120EC738A00187777 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0A30DD220EC738A00187777 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0A30DD420EC738A00187777 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0A30DD520EC738A00187777 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0A30DD820EC738A00187777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0A30DDB20EC738A00187777 /* FangzuiMall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FangzuiMall.xcdatamodel; sourceTree = "<group>"; };
+		B0A30DDD20EC738A00187777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0A30DE020EC738A00187777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0A30DE220EC738A00187777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A30DE320EC738A00187777 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0A30DE920EC738A00187777 /* FangzuiMallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FangzuiMallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A30DED20EC738A00187777 /* FangzuiMallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FangzuiMallTests.m; sourceTree = "<group>"; };
+		B0A30DEF20EC738B00187777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A30DF420EC738B00187777 /* FangzuiMallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FangzuiMallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0A30DF820EC738B00187777 /* FangzuiMallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FangzuiMallUITests.m; sourceTree = "<group>"; };
+		B0A30DFA20EC738B00187777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0A30DCB20EC738A00187777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A30DE620EC738A00187777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A30DF120EC738B00187777 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0A30DC520EC738A00187777 = {
+			isa = PBXGroup;
+			children = (
+				B0A30DD020EC738A00187777 /* FangzuiMall */,
+				B0A30DEC20EC738A00187777 /* FangzuiMallTests */,
+				B0A30DF720EC738B00187777 /* FangzuiMallUITests */,
+				B0A30DCF20EC738A00187777 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0A30DCF20EC738A00187777 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30DCE20EC738A00187777 /* FangzuiMall.app */,
+				B0A30DE920EC738A00187777 /* FangzuiMallTests.xctest */,
+				B0A30DF420EC738B00187777 /* FangzuiMallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0A30DD020EC738A00187777 /* FangzuiMall */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30DD120EC738A00187777 /* AppDelegate.h */,
+				B0A30DD220EC738A00187777 /* AppDelegate.m */,
+				B0A30DD420EC738A00187777 /* ViewController.h */,
+				B0A30DD520EC738A00187777 /* ViewController.m */,
+				B0A30DD720EC738A00187777 /* Main.storyboard */,
+				B0A30DDD20EC738A00187777 /* Assets.xcassets */,
+				B0A30DDF20EC738A00187777 /* LaunchScreen.storyboard */,
+				B0A30DE220EC738A00187777 /* Info.plist */,
+				B0A30DE320EC738A00187777 /* main.m */,
+				B0A30DDA20EC738A00187777 /* FangzuiMall.xcdatamodeld */,
+			);
+			path = FangzuiMall;
+			sourceTree = "<group>";
+		};
+		B0A30DEC20EC738A00187777 /* FangzuiMallTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30DED20EC738A00187777 /* FangzuiMallTests.m */,
+				B0A30DEF20EC738B00187777 /* Info.plist */,
+			);
+			path = FangzuiMallTests;
+			sourceTree = "<group>";
+		};
+		B0A30DF720EC738B00187777 /* FangzuiMallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30DF820EC738B00187777 /* FangzuiMallUITests.m */,
+				B0A30DFA20EC738B00187777 /* Info.plist */,
+			);
+			path = FangzuiMallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0A30DCD20EC738A00187777 /* FangzuiMall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A30DFD20EC738B00187777 /* Build configuration list for PBXNativeTarget "FangzuiMall" */;
+			buildPhases = (
+				B0A30DCA20EC738A00187777 /* Sources */,
+				B0A30DCB20EC738A00187777 /* Frameworks */,
+				B0A30DCC20EC738A00187777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FangzuiMall;
+			productName = FangzuiMall;
+			productReference = B0A30DCE20EC738A00187777 /* FangzuiMall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0A30DE820EC738A00187777 /* FangzuiMallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A30E0020EC738B00187777 /* Build configuration list for PBXNativeTarget "FangzuiMallTests" */;
+			buildPhases = (
+				B0A30DE520EC738A00187777 /* Sources */,
+				B0A30DE620EC738A00187777 /* Frameworks */,
+				B0A30DE720EC738A00187777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0A30DEB20EC738A00187777 /* PBXTargetDependency */,
+			);
+			name = FangzuiMallTests;
+			productName = FangzuiMallTests;
+			productReference = B0A30DE920EC738A00187777 /* FangzuiMallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0A30DF320EC738B00187777 /* FangzuiMallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0A30E0320EC738B00187777 /* Build configuration list for PBXNativeTarget "FangzuiMallUITests" */;
+			buildPhases = (
+				B0A30DF020EC738B00187777 /* Sources */,
+				B0A30DF120EC738B00187777 /* Frameworks */,
+				B0A30DF220EC738B00187777 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0A30DF620EC738B00187777 /* PBXTargetDependency */,
+			);
+			name = FangzuiMallUITests;
+			productName = FangzuiMallUITests;
+			productReference = B0A30DF420EC738B00187777 /* FangzuiMallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0A30DC620EC738A00187777 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "吴冰冰";
+				TargetAttributes = {
+					B0A30DCD20EC738A00187777 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					B0A30DE820EC738A00187777 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B0A30DCD20EC738A00187777;
+					};
+					B0A30DF320EC738B00187777 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = B0A30DCD20EC738A00187777;
+					};
+				};
+			};
+			buildConfigurationList = B0A30DC920EC738A00187777 /* Build configuration list for PBXProject "FangzuiMall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0A30DC520EC738A00187777;
+			productRefGroup = B0A30DCF20EC738A00187777 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0A30DCD20EC738A00187777 /* FangzuiMall */,
+				B0A30DE820EC738A00187777 /* FangzuiMallTests */,
+				B0A30DF320EC738B00187777 /* FangzuiMallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0A30DCC20EC738A00187777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A30DE120EC738A00187777 /* LaunchScreen.storyboard in Resources */,
+				B0A30DDE20EC738A00187777 /* Assets.xcassets in Resources */,
+				B0A30DD920EC738A00187777 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A30DE720EC738A00187777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A30DF220EC738B00187777 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0A30DCA20EC738A00187777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A30DDC20EC738A00187777 /* FangzuiMall.xcdatamodeld in Sources */,
+				B0A30DD620EC738A00187777 /* ViewController.m in Sources */,
+				B0A30DE420EC738A00187777 /* main.m in Sources */,
+				B0A30DD320EC738A00187777 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A30DE520EC738A00187777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A30DEE20EC738A00187777 /* FangzuiMallTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0A30DF020EC738B00187777 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0A30DF920EC738B00187777 /* FangzuiMallUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0A30DEB20EC738A00187777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0A30DCD20EC738A00187777 /* FangzuiMall */;
+			targetProxy = B0A30DEA20EC738A00187777 /* PBXContainerItemProxy */;
+		};
+		B0A30DF620EC738B00187777 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0A30DCD20EC738A00187777 /* FangzuiMall */;
+			targetProxy = B0A30DF520EC738B00187777 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0A30DD720EC738A00187777 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0A30DD820EC738A00187777 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0A30DDF20EC738A00187777 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0A30DE020EC738A00187777 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0A30DFB20EC738B00187777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0A30DFC20EC738B00187777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0A30DFE20EC738B00187777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FangzuiMall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FangzuiMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B0A30DFF20EC738B00187777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FangzuiMall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FangzuiMall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B0A30E0120EC738B00187777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FangzuiMallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FangzuiMallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FangzuiMall.app/FangzuiMall";
+			};
+			name = Debug;
+		};
+		B0A30E0220EC738B00187777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FangzuiMallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FangzuiMallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FangzuiMall.app/FangzuiMall";
+			};
+			name = Release;
+		};
+		B0A30E0420EC738B00187777 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FangzuiMallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FangzuiMallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FangzuiMall;
+			};
+			name = Debug;
+		};
+		B0A30E0520EC738B00187777 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FangzuiMallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.FangzuiMallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FangzuiMall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0A30DC920EC738A00187777 /* Build configuration list for PBXProject "FangzuiMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A30DFB20EC738B00187777 /* Debug */,
+				B0A30DFC20EC738B00187777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A30DFD20EC738B00187777 /* Build configuration list for PBXNativeTarget "FangzuiMall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A30DFE20EC738B00187777 /* Debug */,
+				B0A30DFF20EC738B00187777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A30E0020EC738B00187777 /* Build configuration list for PBXNativeTarget "FangzuiMallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A30E0120EC738B00187777 /* Debug */,
+				B0A30E0220EC738B00187777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0A30E0320EC738B00187777 /* Build configuration list for PBXNativeTarget "FangzuiMallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0A30E0420EC738B00187777 /* Debug */,
+				B0A30E0520EC738B00187777 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B0A30DDA20EC738A00187777 /* FangzuiMall.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B0A30DDB20EC738A00187777 /* FangzuiMall.xcdatamodel */,
+			);
+			currentVersion = B0A30DDB20EC738A00187777 /* FangzuiMall.xcdatamodel */;
+			path = FangzuiMall.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B0A30DC620EC738A00187777 /* Project object */;
+}
