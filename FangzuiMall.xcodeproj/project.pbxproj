@@ -7,15 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B0A30DD320EC738A00187777 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30DD220EC738A00187777 /* AppDelegate.m */; };
-		B0A30DD620EC738A00187777 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30DD520EC738A00187777 /* ViewController.m */; };
 		B0A30DD920EC738A00187777 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A30DD720EC738A00187777 /* Main.storyboard */; };
 		B0A30DDC20EC738A00187777 /* FangzuiMall.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0A30DDA20EC738A00187777 /* FangzuiMall.xcdatamodeld */; };
-		B0A30DDE20EC738A00187777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A30DDD20EC738A00187777 /* Assets.xcassets */; };
 		B0A30DE120EC738A00187777 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0A30DDF20EC738A00187777 /* LaunchScreen.storyboard */; };
-		B0A30DE420EC738A00187777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30DE320EC738A00187777 /* main.m */; };
 		B0A30DEE20EC738A00187777 /* FangzuiMallTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30DED20EC738A00187777 /* FangzuiMallTests.m */; };
 		B0A30DF920EC738B00187777 /* FangzuiMallUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30DF820EC738B00187777 /* FangzuiMallUITests.m */; };
+		B0A30E0920EC73C400187777 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30E0820EC73C400187777 /* AppDelegate.m */; };
+		B0A30E0D20EC747500187777 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30E0B20EC747500187777 /* main.m */; };
+		B0A30E0E20EC747500187777 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0A30E0C20EC747500187777 /* Assets.xcassets */; };
+		B0A30E1820EC771200187777 /* FZBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30E1720EC771200187777 /* FZBaseViewController.m */; };
+		B0A30E1B20EC77BB00187777 /* FZBaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30E1A20EC77BB00187777 /* FZBaseNavigationViewController.m */; };
+		B0A30E1E20EC78D300187777 /* FZBaseTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30E1D20EC78D300187777 /* FZBaseTabBarViewController.m */; };
+		B0A30E2920EC79D500187777 /* FZMainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30E2820EC79D500187777 /* FZMainPageViewController.m */; };
+		B0A30E2C20EC7A2800187777 /* FZMessageMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30E2B20EC7A2800187777 /* FZMessageMainViewController.m */; };
+		B0A30E2F20EC7A7E00187777 /* FZMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30E2E20EC7A7E00187777 /* FZMainViewController.m */; };
+		B0A30E3220EC7AB200187777 /* FZMineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30E3120EC7AB200187777 /* FZMineViewController.m */; };
+		B0A30E3820EC7E6900187777 /* FZUtilsConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30E3420EC7E6900187777 /* FZUtilsConst.m */; };
+		B0A30E3920EC7E6900187777 /* FZUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30E3720EC7E6900187777 /* FZUtils.m */; };
+		B0A30E4320EC97C900187777 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30E3E20EC97C800187777 /* UIView+Extension.m */; };
+		B0A30E4420EC97C900187777 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30E4120EC97C800187777 /* UIView+Toast.m */; };
+		B0A30E4520EC97C900187777 /* UIColor+HEX.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A30E4220EC97C800187777 /* UIColor+HEX.m */; };
+		F637EFD19FED113A42AD442A /* libPods-FangzuiMall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DECD2C0D8BCDED2CF997D0D3 /* libPods-FangzuiMall.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,23 +48,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C85854A91333CD1803619BE /* Pods-FangzuiMall.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FangzuiMall.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FangzuiMall/Pods-FangzuiMall.debug.xcconfig"; sourceTree = "<group>"; };
+		80E5F7115CD52D21DAA594D0 /* Pods-FangzuiMall.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FangzuiMall.release.xcconfig"; path = "Pods/Target Support Files/Pods-FangzuiMall/Pods-FangzuiMall.release.xcconfig"; sourceTree = "<group>"; };
 		B0A30DCE20EC738A00187777 /* FangzuiMall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FangzuiMall.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0A30DD120EC738A00187777 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		B0A30DD220EC738A00187777 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B0A30DD420EC738A00187777 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B0A30DD520EC738A00187777 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B0A30DD820EC738A00187777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0A30DDB20EC738A00187777 /* FangzuiMall.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FangzuiMall.xcdatamodel; sourceTree = "<group>"; };
-		B0A30DDD20EC738A00187777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0A30DE020EC738A00187777 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B0A30DE220EC738A00187777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B0A30DE320EC738A00187777 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B0A30DE920EC738A00187777 /* FangzuiMallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FangzuiMallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A30DED20EC738A00187777 /* FangzuiMallTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FangzuiMallTests.m; sourceTree = "<group>"; };
 		B0A30DEF20EC738B00187777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0A30DF420EC738B00187777 /* FangzuiMallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FangzuiMallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A30DF820EC738B00187777 /* FangzuiMallUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FangzuiMallUITests.m; sourceTree = "<group>"; };
 		B0A30DFA20EC738B00187777 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0A30E0720EC73C400187777 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0A30E0820EC73C400187777 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0A30E0B20EC747500187777 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0A30E0C20EC747500187777 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0A30E1620EC771200187777 /* FZBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZBaseViewController.h; sourceTree = "<group>"; };
+		B0A30E1720EC771200187777 /* FZBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZBaseViewController.m; sourceTree = "<group>"; };
+		B0A30E1920EC77BB00187777 /* FZBaseNavigationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZBaseNavigationViewController.h; sourceTree = "<group>"; };
+		B0A30E1A20EC77BB00187777 /* FZBaseNavigationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZBaseNavigationViewController.m; sourceTree = "<group>"; };
+		B0A30E1C20EC78D300187777 /* FZBaseTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZBaseTabBarViewController.h; sourceTree = "<group>"; };
+		B0A30E1D20EC78D300187777 /* FZBaseTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZBaseTabBarViewController.m; sourceTree = "<group>"; };
+		B0A30E2720EC79D500187777 /* FZMainPageViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZMainPageViewController.h; sourceTree = "<group>"; };
+		B0A30E2820EC79D500187777 /* FZMainPageViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZMainPageViewController.m; sourceTree = "<group>"; };
+		B0A30E2A20EC7A2800187777 /* FZMessageMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZMessageMainViewController.h; sourceTree = "<group>"; };
+		B0A30E2B20EC7A2800187777 /* FZMessageMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZMessageMainViewController.m; sourceTree = "<group>"; };
+		B0A30E2D20EC7A7E00187777 /* FZMainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZMainViewController.h; sourceTree = "<group>"; };
+		B0A30E2E20EC7A7E00187777 /* FZMainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZMainViewController.m; sourceTree = "<group>"; };
+		B0A30E3020EC7AB200187777 /* FZMineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZMineViewController.h; sourceTree = "<group>"; };
+		B0A30E3120EC7AB200187777 /* FZMineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FZMineViewController.m; sourceTree = "<group>"; };
+		B0A30E3320EC7E6900187777 /* FZConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZConst.h; sourceTree = "<group>"; };
+		B0A30E3420EC7E6900187777 /* FZUtilsConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZUtilsConst.m; sourceTree = "<group>"; };
+		B0A30E3520EC7E6900187777 /* FZUtilsConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZUtilsConst.h; sourceTree = "<group>"; };
+		B0A30E3620EC7E6900187777 /* FZUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZUtils.h; sourceTree = "<group>"; };
+		B0A30E3720EC7E6900187777 /* FZUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZUtils.m; sourceTree = "<group>"; };
+		B0A30E3D20EC97C800187777 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		B0A30E3E20EC97C800187777 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		B0A30E3F20EC97C800187777 /* UIColor+HEX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HEX.h"; sourceTree = "<group>"; };
+		B0A30E4020EC97C800187777 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		B0A30E4120EC97C800187777 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		B0A30E4220EC97C800187777 /* UIColor+HEX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HEX.m"; sourceTree = "<group>"; };
+		B0A30E4720EC987F00187777 /* FZPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FZPrefixHeader.pch; sourceTree = "<group>"; };
+		DECD2C0D8BCDED2CF997D0D3 /* libPods-FangzuiMall.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FangzuiMall.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F637EFD19FED113A42AD442A /* libPods-FangzuiMall.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,6 +120,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		86FCF1026DD1D2D5B7FA6017 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C85854A91333CD1803619BE /* Pods-FangzuiMall.debug.xcconfig */,
+				80E5F7115CD52D21DAA594D0 /* Pods-FangzuiMall.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		B0A30DC520EC738A00187777 = {
 			isa = PBXGroup;
 			children = (
@@ -87,6 +136,8 @@
 				B0A30DEC20EC738A00187777 /* FangzuiMallTests */,
 				B0A30DF720EC738B00187777 /* FangzuiMallUITests */,
 				B0A30DCF20EC738A00187777 /* Products */,
+				86FCF1026DD1D2D5B7FA6017 /* Pods */,
+				DF59DF8D058197FA07BB12D7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,15 +154,15 @@
 		B0A30DD020EC738A00187777 /* FangzuiMall */ = {
 			isa = PBXGroup;
 			children = (
-				B0A30DD120EC738A00187777 /* AppDelegate.h */,
-				B0A30DD220EC738A00187777 /* AppDelegate.m */,
-				B0A30DD420EC738A00187777 /* ViewController.h */,
-				B0A30DD520EC738A00187777 /* ViewController.m */,
-				B0A30DD720EC738A00187777 /* Main.storyboard */,
-				B0A30DDD20EC738A00187777 /* Assets.xcassets */,
-				B0A30DDF20EC738A00187777 /* LaunchScreen.storyboard */,
+				B0A30E1420EC754D00187777 /* Thirdlib */,
+				B0A30E1320EC753400187777 /* Sources */,
+				B0A30E1220EC751F00187777 /* Config */,
+				B0A30E1120EC750100187777 /* Manager */,
+				B0A30E1020EC74F800187777 /* Class */,
+				B0A30E0F20EC74E500187777 /* BaseClass */,
+				B0A30E0A20EC73DF00187777 /* SupportingFiles */,
+				B0A30E0620EC739400187777 /* FZAppdelegate */,
 				B0A30DE220EC738A00187777 /* Info.plist */,
-				B0A30DE320EC738A00187777 /* main.m */,
 				B0A30DDA20EC738A00187777 /* FangzuiMall.xcdatamodeld */,
 			);
 			path = FangzuiMall;
@@ -135,6 +186,182 @@
 			path = FangzuiMallUITests;
 			sourceTree = "<group>";
 		};
+		B0A30E0620EC739400187777 /* FZAppdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30E0720EC73C400187777 /* AppDelegate.h */,
+				B0A30E0820EC73C400187777 /* AppDelegate.m */,
+			);
+			path = FZAppdelegate;
+			sourceTree = "<group>";
+		};
+		B0A30E0A20EC73DF00187777 /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30DD720EC738A00187777 /* Main.storyboard */,
+				B0A30DDF20EC738A00187777 /* LaunchScreen.storyboard */,
+				B0A30E0C20EC747500187777 /* Assets.xcassets */,
+				B0A30E0B20EC747500187777 /* main.m */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		B0A30E0F20EC74E500187777 /* BaseClass */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30E1520EC763800187777 /* Controller */,
+			);
+			path = BaseClass;
+			sourceTree = "<group>";
+		};
+		B0A30E1020EC74F800187777 /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30E2220EC795E00187777 /* Mine */,
+				B0A30E2120EC794E00187777 /* FangZui */,
+				B0A30E2020EC794000187777 /* Message */,
+				B0A30E1F20EC793200187777 /* MainPage */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		B0A30E1120EC750100187777 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		B0A30E1220EC751F00187777 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30E3C20EC972C00187777 /* Category */,
+				B0A30E3320EC7E6900187777 /* FZConst.h */,
+				B0A30E3620EC7E6900187777 /* FZUtils.h */,
+				B0A30E3720EC7E6900187777 /* FZUtils.m */,
+				B0A30E3520EC7E6900187777 /* FZUtilsConst.h */,
+				B0A30E3420EC7E6900187777 /* FZUtilsConst.m */,
+				B0A30E4720EC987F00187777 /* FZPrefixHeader.pch */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		B0A30E1320EC753400187777 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		B0A30E1420EC754D00187777 /* Thirdlib */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Thirdlib;
+			sourceTree = "<group>";
+		};
+		B0A30E1520EC763800187777 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30E1620EC771200187777 /* FZBaseViewController.h */,
+				B0A30E1720EC771200187777 /* FZBaseViewController.m */,
+				B0A30E1920EC77BB00187777 /* FZBaseNavigationViewController.h */,
+				B0A30E1A20EC77BB00187777 /* FZBaseNavigationViewController.m */,
+				B0A30E1C20EC78D300187777 /* FZBaseTabBarViewController.h */,
+				B0A30E1D20EC78D300187777 /* FZBaseTabBarViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B0A30E1F20EC793200187777 /* MainPage */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30E2320EC797700187777 /* Controllers */,
+			);
+			path = MainPage;
+			sourceTree = "<group>";
+		};
+		B0A30E2020EC794000187777 /* Message */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30E2420EC798900187777 /* Controllers */,
+			);
+			path = Message;
+			sourceTree = "<group>";
+		};
+		B0A30E2120EC794E00187777 /* FangZui */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30E2520EC799800187777 /* Controllers */,
+			);
+			path = FangZui;
+			sourceTree = "<group>";
+		};
+		B0A30E2220EC795E00187777 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30E2620EC79A500187777 /* Controllers */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		B0A30E2320EC797700187777 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30E2720EC79D500187777 /* FZMainPageViewController.h */,
+				B0A30E2820EC79D500187777 /* FZMainPageViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B0A30E2420EC798900187777 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30E2A20EC7A2800187777 /* FZMessageMainViewController.h */,
+				B0A30E2B20EC7A2800187777 /* FZMessageMainViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B0A30E2520EC799800187777 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30E2D20EC7A7E00187777 /* FZMainViewController.h */,
+				B0A30E2E20EC7A7E00187777 /* FZMainViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B0A30E2620EC79A500187777 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30E3020EC7AB200187777 /* FZMineViewController.h */,
+				B0A30E3120EC7AB200187777 /* FZMineViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B0A30E3C20EC972C00187777 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				B0A30E3F20EC97C800187777 /* UIColor+HEX.h */,
+				B0A30E4220EC97C800187777 /* UIColor+HEX.m */,
+				B0A30E4020EC97C800187777 /* UIView+Extension.h */,
+				B0A30E3E20EC97C800187777 /* UIView+Extension.m */,
+				B0A30E3D20EC97C800187777 /* UIView+Toast.h */,
+				B0A30E4120EC97C800187777 /* UIView+Toast.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		DF59DF8D058197FA07BB12D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DECD2C0D8BCDED2CF997D0D3 /* libPods-FangzuiMall.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +369,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0A30DFD20EC738B00187777 /* Build configuration list for PBXNativeTarget "FangzuiMall" */;
 			buildPhases = (
+				49CF9ECC7AC8D1A129071E3A /* [CP] Check Pods Manifest.lock */,
 				B0A30DCA20EC738A00187777 /* Sources */,
 				B0A30DCB20EC738A00187777 /* Frameworks */,
 				B0A30DCC20EC738A00187777 /* Resources */,
+				23AF2A8CB56EE19E855EBD85 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -239,7 +468,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B0A30DE120EC738A00187777 /* LaunchScreen.storyboard in Resources */,
-				B0A30DDE20EC738A00187777 /* Assets.xcassets in Resources */,
+				B0A30E0E20EC747500187777 /* Assets.xcassets in Resources */,
 				B0A30DD920EC738A00187777 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,15 +489,69 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		23AF2A8CB56EE19E855EBD85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FangzuiMall/Pods-FangzuiMall-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FangzuiMall/Pods-FangzuiMall-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		49CF9ECC7AC8D1A129071E3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FangzuiMall-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0A30DCA20EC738A00187777 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0A30E2C20EC7A2800187777 /* FZMessageMainViewController.m in Sources */,
+				B0A30E1B20EC77BB00187777 /* FZBaseNavigationViewController.m in Sources */,
+				B0A30E0920EC73C400187777 /* AppDelegate.m in Sources */,
+				B0A30E4420EC97C900187777 /* UIView+Toast.m in Sources */,
+				B0A30E3220EC7AB200187777 /* FZMineViewController.m in Sources */,
+				B0A30E4520EC97C900187777 /* UIColor+HEX.m in Sources */,
+				B0A30E2F20EC7A7E00187777 /* FZMainViewController.m in Sources */,
 				B0A30DDC20EC738A00187777 /* FangzuiMall.xcdatamodeld in Sources */,
-				B0A30DD620EC738A00187777 /* ViewController.m in Sources */,
-				B0A30DE420EC738A00187777 /* main.m in Sources */,
-				B0A30DD320EC738A00187777 /* AppDelegate.m in Sources */,
+				B0A30E0D20EC747500187777 /* main.m in Sources */,
+				B0A30E1820EC771200187777 /* FZBaseViewController.m in Sources */,
+				B0A30E3820EC7E6900187777 /* FZUtilsConst.m in Sources */,
+				B0A30E4320EC97C900187777 /* UIView+Extension.m in Sources */,
+				B0A30E2920EC79D500187777 /* FZMainPageViewController.m in Sources */,
+				B0A30E3920EC7E6900187777 /* FZUtils.m in Sources */,
+				B0A30E1E20EC78D300187777 /* FZBaseTabBarViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,10 +718,14 @@
 		};
 		B0A30DFE20EC738B00187777 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C85854A91333CD1803619BE /* Pods-FangzuiMall.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FangzuiMall/Config/FZPrefixHeader.pch";
 				INFOPLIST_FILE = FangzuiMall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,10 +738,14 @@
 		};
 		B0A30DFF20EC738B00187777 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E5F7115CD52D21DAA594D0 /* Pods-FangzuiMall.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/FangzuiMall/Config/FZPrefixHeader.pch";
 				INFOPLIST_FILE = FangzuiMall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
